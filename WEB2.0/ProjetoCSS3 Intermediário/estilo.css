@@ -1,0 +1,58 @@
+/*
+Modelo de Caixa
+
+
+.conteudo{
+	border:1px solid red;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding: 20px 15px 10px 5px;
+
+
+	/*margin-top: 20px;
+	margin-left: 20px;
+	margin: 20px 15px 10px 5px;
+	width: 150px;
+}
+
+*/
+
+/*Elementos Flutuantes */
+
+.conteudo {
+	background-color: blue;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: right;
+
+}
+/*.conteudo1 {
+	background-color: red;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: left;
+
+}*/
+
+.conteudo-zero{
+	background-color: red;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+#principal{
+	background-color: green;
+	border: 5px solid red;
+}

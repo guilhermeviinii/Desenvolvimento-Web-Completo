@@ -1,0 +1,172 @@
+/*#caixa{
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 50px;
+	box-sizing: border-box;
+	-webkit-border-radius: 20px 90px;
+	-moz-border-radius: 20px 90px;
+	border-radius: 20px 90px;
+}
+
+#caixa2{
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	-webkit-border-radius: 20px 90px;
+	-moz-border-radius: 20px 90px;
+	border-radius: 20px 90px;
+}
+
+.arredondamento{
+	border-radius: 10px 50px 80px 100px;
+}*/
+
+
+			 /*D E G R A D Ê S */
+
+
+
+/*#caixa{
+	width: 300px;
+	height: 300px;
+	background: #b9c941 url("../imagens/camera.png");
+	background: linear-gradient(140deg, orange,black, red,green);
+	background: radial-gradient(red,green);
+}
+
+#caixa h1{
+	background: rgb(255,255,255,0.5);
+}*/
+
+
+
+              /*S O M B R A S*/
+
+
+
+
+/*#caixa{
+	width: 300px;
+	height: 300px;
+	padding: 8px;
+	margin: 20px;
+	background: #009670;
+	box-shadow: 5px 5px 20px 5px black;
+}
+
+#caixa h1{
+	color: white;
+	text-shadow: 4px 4px 5px black;
+	text-align: center;
+}
+
+#caixa p{
+	text-indent: center;
+	font-family: arial;
+}
+*/
+
+
+
+
+       /*A N I M A Ç Õ E S*/
+
+
+
+
+/*@keyframes animacao-caixa{
+	from{
+		background: red;
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+	}
+	to {
+		background: green;
+		border-radius: 300px;
+		top: 200px;
+		left: 100%;
+	}
+}
+
+#caixa{
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	animation-name: animacao-caixa;
+	animation-duration: 2s;
+	animation-delay: 3s;
+	animation-iteration-count: 5;
+	animation-direction: alternate;
+
+}
+ 
+#caixa2 {
+	width: 300px;
+	height: 300px;
+	background: red;
+	animation-name: animacao-caixa;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+
+
+}*/
+
+
+
+			/*T R A N S I Ç Õ E S*/
+
+
+
+/*#caixa{
+	width: 300px;
+	height: 300px;
+	background: orange;
+}
+
+#caixa:hover{
+	width: 400px;
+	background: yellow;
+	transition: width 3s, background 3s;
+	transition: all 0.5s;
+}
+*/
+
+
+			/*NOVAS TAGS HTML 5*/
+
+/*
+header{
+	border: 1px solid red;
+	background: #f2f2f2;
+	padding: 10px;
+}
+
+nav{
+	border: 1px solid red;
+	background: #ccc;
+	padding: 10px;
+}
+
+footer{
+	border: 1px solid red;
+	background: #ccc;
+	padding: 10px;
+}
+
+article{
+	background: orange;
+	padding: 10px;
+}
+
+section{
+	border: 1px dotted #fff;
+}
+
+aside{
+	background: blue;
+}*/
