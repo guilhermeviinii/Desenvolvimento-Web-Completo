@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+
+	
+	<title>JavaScript</title>
+
+	<script >
+		
+		function distruibuiCaracter() {
+			var caracter = document.getElementById('caracter').value
+			document.getElementById('caracter').value = ''
+			console.log(caracter)
+			caracter.trim()
+
+			switch (caracter){
+				case '0':
+				case '1':
+				case '2':
+				case '3':
+				case '4':
+				case '5':
+				case '6':
+				case '7':
+				case '8':
+				case '9':
+					document.getElementById('numero').value += caracter
+				break;
+				default:
+					document.getElementById('letras').value += caracter
+
+			}
+		}
+
+	</script>
+	
+
+</head>
+<body>
+
+	<input type="text" placeholder="Digite um caracter aqui" id="caracter" class="caracter" name="caracter" onkeyup="distruibuiCaracter()">
+	<hr>
+
+	<span>Letras:</span>
+	<input type="text" placeholder="Digite seu nome" id="letras"disabled="disabled">
+
+	<span>Numeros:</span>
+	<input type="text" placeholder="Digite seu nome" id="numero" disabled="disabled">
+
+
+	<script>
+		
+		console.log(document.getElementsByName('nome'))
+
+
+
+	</script>
+
+
+</body>
+</html>

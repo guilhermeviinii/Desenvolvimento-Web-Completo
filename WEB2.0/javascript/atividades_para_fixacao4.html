@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+
+	
+	<title>JavaScript</title>
+
+	<style >
+		
+		.estilo1{
+			background:  red;
+			color: #fff;
+
+		}
+
+		.estilo2{
+			width: 400px
+			height: 50px;
+			background-color: #FF0000;
+			text-align: center;
+			font-size: 25px;
+			color: #FFF;
+			padding: 25px;
+		}
+
+	</style>
+
+	<script >
+		function modifcaFundo() {
+			document.getElementById('campo').style.backgroundColor = 'yellow'
+		}
+		function modifcaFundo2() {
+			document.getElementById('campo').style.backgroundColor = '#FFF'
+		}
+		function modifcaFundo3() {
+
+			var tam = document.getElementById('campo').value
+			tam = tam.length
+			if(tam <= 3){
+
+
+			document.getElementById('campo').style.backgroundColor = 'red'
+
+		}else{
+			document.getElementById('campo').style.backgroundColor = 'green'
+		}
+
+		}
+		
+		
+	</script>
+	
+
+</head>
+<body>
+
+	<input onfocus="modifcaFundo()" onblur="modifcaFundo2()" onkeyup="modifcaFundo3()" type="text" id="campo">
+
+</body>
+</html>
