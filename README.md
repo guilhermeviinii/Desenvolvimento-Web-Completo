@@ -13,6 +13,7 @@ Analista de sistemas e Professor
 
 ## Apps desenvolvidos
 **Projeto 1 ** - UNES -> Linguagens usadas `HTML 5`
+<br>
 **Projeto 2 ** - Anna Bella -> Linguagens usadas `HTML 5, CSS3`
 **Projeto 3 ** - TecBlog -> Linguagens usadas `HTML 5, CSS3`
 **Projeto 4 ** - Site de Noticías -> Linguagens usadas `HTML 5, CSS3`
